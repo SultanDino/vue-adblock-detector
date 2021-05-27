@@ -1,6 +1,6 @@
 {
   "name": "vue-adblock-detector",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "It's FuckAdBlock with a minimalist API.",
   "main": "dist/bundle.cjs.js",
   "module": "dist/bundle.esm.js",
