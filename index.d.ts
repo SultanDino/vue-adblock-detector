@@ -1,1 +1,1 @@
-declare module "just-detect-adblock";
+declare module "vue-adblock-detector";
