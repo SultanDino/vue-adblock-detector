@@ -1,6 +1,6 @@
 {
   "name": "vue-adblock-detector",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "It's FuckAdBlock with a minimalist API.",
   "main": "dist/bundle.cjs.js",
   "module": "dist/bundle.esm.js",
@@ -11,7 +11,9 @@
     "test": "http-server ./ --silent -c-1 -o /docs/index.html"
   },
   "files": [
-    "dist"
+    "dist",
+    "index.d.ts",
+    "src"
   ],
   "repository": {
     "type": "git",
