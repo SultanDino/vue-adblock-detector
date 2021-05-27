@@ -1,11 +1,9 @@
-# just-detect-adblock :no_entry_sign: :detective:
+# vue-adblock-detector :no_entry_sign: :detective:
 
-[![npm](https://img.shields.io/npm/v/just-detect-adblock)](https://www.npmjs.com/package/just-detect-adblock)
-[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/wmcmurray/just-detect-adblock.svg?logo=lgtm&logoWidth=18&label=JS%20code%20quality)](https://lgtm.com/projects/g/wmcmurray/just-detect-adblock/context:javascript)
+[![npm](https://img.shields.io/npm/v/vue-adblock-detector)](https://www.npmjs.com/package/vue-adblock-detector)
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/wmcmurray/vue-adblock-detector.svg?logo=lgtm&logoWidth=18&label=JS%20code%20quality)](https://lgtm.com/projects/g/wmcmurray/vue-adblock-detector/context:javascript)
 
-[![live demo](https://img.shields.io/badge/-live%20demo%20!-springgreen?style=for-the-badge)](https://wmcmurray.github.io/just-detect-adblock/)
-
-This package was originally ~~inspired~~ copied from [BlockAdBlock](https://github.com/sitexw/BlockAdBlock) & [FuckAdBlock](https://github.com/sitexw/FuckAdBlock), then I added features that those don't have. I just didn't like how overly complicated their API was, so I made this, which contains only helper functions that can be called manually. The rest is up to you !
+This package was originally ~~inspired~~ copied from [wmcmurray](https://github.com/wmcmurray) & [BlockAdBlock](https://github.com/sitexw/BlockAdBlock) & [FuckAdBlock](https://github.com/sitexw/FuckAdBlock), then I added features that those don't have. I just didn't like how overly complicated their API was, so I made this, which contains only helper functions that can be called manually. The rest is up to you !
 
 
 ## Features
@@ -20,7 +18,7 @@ This package was originally ~~inspired~~ copied from [BlockAdBlock](https://gith
 ## How to use
 
 ```
-npm install just-detect-adblock --save
+npm install vue-adblock-detector --save
 ```
 
 | Methods                       | Return                          | Description                                                        |
@@ -37,7 +35,7 @@ npm install just-detect-adblock --save
 
 ### Webpack
 ```javascript
-import { detectAnyAdblocker } from 'just-detect-adblock'
+import { detectAnyAdblocker } from 'vue-adblock-detector'
 
 detectAnyAdblocker().then((detected) => {
   if(detected){
